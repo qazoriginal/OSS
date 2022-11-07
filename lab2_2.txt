@@ -1,0 +1,257 @@
+    1  ls
+    2  vim example
+    3  apt install nvim
+    4  ls
+    5  apt
+    6  rpm
+    7  rpm nvim
+    8  dnf nvim
+    9  dnf
+   10  dnf install nvim
+   11  sudo dnf install nvim
+   12  sudo dnf install vim
+   13  vim example 
+   14  ls
+   15  cd Общедоступные/
+   16  ls
+   17  ls -alf
+   18  ls -alh
+   19  ls
+   20  vim example 
+   21  rm example 
+   22  ls
+   23  ды
+   24    ls
+   25  mv Загрузки downloads
+   26  ls
+   27  mv Видео video
+   28  mv Документы documents
+   29  mv Музыка music
+   30  mv Изображения images
+   31  mv 'Рабочий стол' desktop
+   32  ls
+   33  mv Общедоступные public
+   34  ls
+   35  mv Шаблоны templates
+   36  ls
+   37  cd templates/
+   38  ls
+   39  ls -alh
+   40  clear
+   41  echo "it's hard to do that"
+   42  echo 'it'\''s hard to do that'
+   43  echo '"Пример текста в двойных кавычках"'
+   44  # comment
+   45  echo '#эта строка не является комментарием'
+   46   whoami
+   47  whoiam
+   48   whoami
+   49  echo "Hello world!"
+   50  date
+   51  cal
+   52  man cal
+   53  cal -3
+   54  man
+   55  mah history
+   56  man history
+   57  histor
+   58  history
+   59  pwd
+   60  cd /
+   61  cd ..
+   62  pwd
+   63  ls
+   64  ls /var
+   65  cd ~
+   66  cd ..
+   67  pwd
+   68  ls
+   69  d
+   70  cd
+   71  ls -l
+   72  cd ..
+   73  ls pd9/ -l
+   74  cd
+   75  mkdir fruits
+   76  cd /
+   77  mkdir ~/animals
+   78  touch /tmp/temp
+   79  cd
+   80  cd fruits/
+   81  touch banana
+   82  touch pineapple
+   83  touch lion
+   84  mv pineapple pineaple
+   85  touch apple
+   86  touch ./../animals/elephant.txt
+   87  touch ./../animals/cat.txt
+   88  touch ./../animals/dog.txt
+   89  file apple
+   90  ls b*
+   91  ls a*
+   92  ls
+   93  man file
+   94  file
+   95  file apple
+   96  date
+   97  date apple 
+   98  cal
+   99  man touch
+  100  touch apple 
+  101  ls
+  102  man touch
+  103  man date
+  104  date -f apple 
+  105  man date
+  106  date -d apple 
+  107  man date
+  108  ls
+  109  ls -l
+  110  ls b* i*
+  111  ls [bi]*
+  112  cp /etc/passwd ~
+  113  cat /etc/issue
+  114  cp \etc\issue apple 
+  115  cp /etc/issue apple 
+  116  cat apple 
+  117  mv lion ../animals/
+  118  ls ../animals/
+  119  ls
+  120  mv pineaple pineapple
+  121  ls
+  122  ls ~
+  123  man ws
+  124  man wc
+  125  wc -l ../passwd 
+  126  cat ../passwd 
+  127  calear
+  128  clear
+  129  cd
+  130  ln -s /etc/passwd passwd_link
+  131  ln .bash_history history_hard
+  132  ls -l
+  133  ls -l .bash_history 
+  134  ls -alh
+  135  rm fruits/apple 
+  136  mkdir rmme
+  137  rmdir rmme/
+  138  rmdir fruits/
+  139  rm -fr fruits/
+  140  man cat
+  141  cat /etc/passwd /var/log/boot.log 
+  142  cat /var/log/boot.log 
+  143  cp /etc/init.d/ ~
+  144  cp -r /etc/init.d/ ~
+  145  rm init.d/
+  146  rmdir init.d/
+  147  rmdir -rf init.d/
+  148  rm -fr init.d/
+  149  man fold
+  150  man head
+  151  man tr
+  152  man tail
+  153  man fold
+  154  man wc
+  155  sort
+  156  man sort
+  157  cut -d: -f1/etc/passwd | sort
+  158  cut -d: -f1 /etc/passwd | sort
+  159  cut -d: -f1,3,4 /etc/passwd | column -ts: | less
+  160  cat /etc/passwd
+  161  grep :bin/bash /etc/passwd | wc -l
+  162  grep :/bin/bash /etc/passwd | wc -l
+  163  man grep
+  164  grep :/bin/bash /etc/passwd | cut -d: -f1 | sort
+  165  man sor
+  166  man sort
+  167  grep :/bin/bash /etc/passwd | cut -d: -f1 | sort -r
+  168  rpm -qa --qf'%{NAME}: %{SIZE}\n' | sort -rn -k2,2 | less
+  169  man less
+  170  rpm -qa --qf'%{NAME}: %{SIZE}\n' | sort -rn -k2,2 | less e 25
+  171  rpm -qa --qf'%{NAME}: %{SIZE}\n' | sort -rn -k2,2 | less 25
+  172  man less
+  173  rpm -qa --qf'%{NAME}: %{SIZE}\n' | sort -rn -k2,2 | less -N 25
+  174  rpm -qa --qf'%{NAME}: %{SIZE}\n' | sort -rn -k2,2 | less -N25
+  175  rpm -qa --qf '%{NAME}: %{SIZE}\n' | sort -rn -k2,2 | less -N25
+  176  rpm -ql man-db | xargs -l du 2> /dev/null | sort -n 
+  177  man sort
+  178  top -b -n1 | sort -d
+  179  man sort
+  180  top -b -n1
+  181  man sort
+  182  top -b -n1 | sort -k12
+  183  top -b -n1 | tail -n+8 | cut -c7- | tr -s ' ' '\t' | cut -f11,5
+  184  top -b -n1 | tail -n+8 | cut -c7- | tr -s ' ' '\t' | cut -f12,5
+  185  man tr
+  186  man top
+  187  cat /etc/passwd | sort -k1 | tr ":" " "
+  188  git
+  189  man cut
+  190  man tail
+  191  cat /etc/passwd | sort -k1 | tr ":" " " | cut -f1,6
+  192  grep :bin/bash /etc/passwd
+  193  grep :bin/bash /etc/passwd 
+  194  grep :bin/bash /etc/passwd
+  195  grep :bin/bash /etc/passwd | wc -l
+  196  grep :/bin/bash /etc/passwd
+  197  cat /etc/passwd | sort -k1 | tr ":" " " | cut -f1,7
+  198  man columns
+  199  man column 
+  200  cat /etc/passwd | cut -f2,3,4,5,6 | tr ":" " " | sort
+  201  cat /etc/passwd | tr ":" " " | sort | cut -d: -f1,7
+  202  cut -d: -f1,7 /etc/passwd | sort
+  203  cut -d: -f1,7 /etc/passwd | tr ":" " " | sort
+  204  cut -d: -f1,7 /etc/passwd | tr ":" " " | sort | column -ts
+  205  cut -d: -f1,7 /etc/passwd | tr ":" " " | sort | column
+  206  cd /usr/share/doc/git-*
+  207  yum install -y git
+  208  sudo yum install -y git
+  209  cd /usr/share/doc/git-*
+  210  cd /usr/share/doc/git
+  211  ls
+  212  cat user-manual.txt | tr -cs '[:alpha:]' '\n' | tr '[:upper:]' '[::]'
+  213  cat user-manual.txt | tr ' ' '\012' | tr '[:upper:]' '[:lower:]' | tr -d '[:punct:]' | grep -v '[^a-z]' | sort | uniq -c | sort -rn | head -5
+  214  cat user-manual.txt | tr -cs '[:alpha:]' '\n' | tr '[:upper:]' '[:lower:]' | sort | uniq -c | sort -rn | head -5
+  215  tr '[:lower:]' '[:upper:]' < user-manual.txt | tr -d '[:punct:] \n\t' | fold -w1 | sort | uniq -c | sort -rn | head -5
+  216  tr -cs '[:alpha:]' '\n' < user-manual.txt | less | grep -E ........ | sort | uniq -c | sort -rn |head
+  217  tr -cs '[:alpha:]' '\n' < user-manual.txt | less | grep -E ........ | sort | uniq -c | sort -rn | head
+  218  ping ya.ru
+  219  curl wttr.in
+  220  hostname -I
+  221  curl ifconfig.me
+  222  wget https://raw.githubusercontent.com/jlrvy/the-art-of-command-line/master/README-ru.md
+  223  wget https://raw.githubusercontent.com/jlevy/the-art-of-command-line/master/README-ru.md
+  224  man wget
+  225  wget https://raw.githubusercontent.com/jlevy/the-art-of-command-line/master/README-ru.md
+  226  sudo id
+  227  id
+  228  sudo less /var/log/messages
+  229  less /var/log/messages
+  230  cd /
+  231  ls
+  232  cd var
+  233  ls
+  234  cd log
+  235  ls
+  236  su
+  237  history > commandline_history.txt
+  238  sudo history > commandline_history.txt
+  239  history
+  240  history > commandline_history.txt
+  241  history > commandline_history1.txt
+  242  cd
+  243  touch commandline_history.txt
+  244  ls
+  245  history > commandline_history.txt 
+  246  vim commandline_history.txt 
+  247  clear
+  248  su
+  249  cat file
+  250  su 
+  251  cat file
+  252  ls -lR
+  253  history
+  254  ls -lR > lab2_1.txt
+  255  ll
+  256  vim lab2_1.txt 
+  257  history > lab2_2.txt

@@ -1,0 +1,14 @@
+./test/:
+total 20
+drw-------. 1 pd9  pd9   16 Oct 15 21:51 dir
+----r-----. 1 root pd9    5 Oct 15 21:48 file
+-rw-------. 1 pd9  pd9    0 Oct 15 22:09 file1
+-rw-rw-rw-. 1 pd9  pd9    0 Oct 15 22:10 file2
+-rw-r--r--. 1 pd9  pd9  406 Nov  7 23:57 lab2_1
+-rw-r--r--. 1 pd9  pd9  295 Oct 15 22:35 lab2_1.txt
+-rw-r--r--. 1 pd9  pd9 6901 Oct 15 22:35 lab2_2.txt
+
+./test/dir:
+ls: cannot access './test/dir/new_file': Permission denied
+total 0
+-????????? ? ? ? ?            ? new_file

@@ -4,8 +4,8 @@
 	```
 * Напишите, по какой причине выводы команды `ls -l /proc/self` и `ls -l /proc/$$` отличаются?
 	```sh
-	ls -l /proc/self # self относится к pid ls
-    	ls -l /proc/$$ # $$ относится к pid shell
+	ls -l /proc/self  относится к pid ls
+    	ls -l /proc/$$    относится к pid shell
 	```
 * Напишите, какие дескрипторы в выводе команды `ls -l /proc/self/fd` отвечают за stdin, stdout, stderr.
 	```

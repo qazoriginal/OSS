@@ -1,11 +1,8 @@
 #!/bin/bash
-echo Домашний каталог пользователя
-whoami
-cd
-echo содержит обычных файлов:
-let A=$(ls -l | grep -c "^-")
-echo $A
-echo скрытых файлов:
-let B=$(ls -la | grep -c "^-")
-let C=$B-$A
-echo $C
+
+echo "Домашний каталог пользователя\n $USER"
+echo "Содержит обычных файлов: "
+find ~/ -maxdepth 1 -type f \! -name ".*" | wc -l
+
+echo "Содержит скрытых файлов: "
+find ~/ -maxdepth 1 -type f -name ".*" | wc -l

@@ -61,7 +61,7 @@ umountFileSys(){
 						losetup --detach $REPLY
 						break
 					fi
-					echo -e "Ошибка! Некорректный ввод\n"
+					echo -e "Ошибка! Некорректный ввод\n" >&2
 					break
 				else
 					umount $ans
@@ -88,7 +88,7 @@ changeSettings(){
 				;;
 			*)
 				if [[ -z $ans1 ]]; then 
-					echo -e "Ошибка! Некорректный ввод\n"
+					echo -e "Ошибка! Некорректный ввод\n" >&2
 					break
 				else
 					PS3="Выберите режим, в который хотите перевести файловую систему > "
@@ -109,7 +109,7 @@ changeSettings(){
 								break
 								;;
 							*)
-								echo -e "Ошибка! некорректный ввод\n"
+								echo -e "Ошибка! некорректный ввод\n" >&2
 								break
 								;;
 						esac
@@ -138,7 +138,7 @@ printParametres(){
 				;;
 			*)
 				if [[ -z $ans2 ]]; then 
-					echo -e "Ошибка! Некорректный ввод\n"
+					echo -e "Ошибка! Некорректный ввод\n" >&2
 					break
 				else
 					mount | grep $(df --output=target $ans2 | tail -n +2)
@@ -165,7 +165,7 @@ extFSInfo(){
 				;;
 			*)
 				if [[ -z $ans3 ]]; then 
-					echo -e "Ошибка! Некорректный ввод\n"
+					echo -e "Ошибка! Некорректный ввод\n" >&2
 					break
 				else
 					tune2fs -l $(echo "$ans3" | cut -d ' ' -f 1)

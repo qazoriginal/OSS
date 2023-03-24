@@ -18,7 +18,6 @@ for s in $services; do
     if [ ! -z $exe_perms ]; then
       echo "$s имеет $unit со следующими правами: $exe_perms"
     fi
-    #echo "$exe"
     if [ ! "$user" = "User=root" ]; then
       owner=$(stat -c '%U' "$exe" 2>/dev/null)
       if [ "$owner" = "root" ]; then

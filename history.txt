@@ -1,0 +1,868 @@
+    1  ls
+    2  clear
+    3  ls
+    4  clear
+    5  ls
+    6  clear
+    7  ls
+    8  ls -al
+    9  ls
+   10  clear
+   11  ls
+   12  mv З
+   13  ls Downloads/
+   14  cd Downloads/
+   15  ls
+   16  cd ../Загрузки/
+   17  ls
+   18  cd ..
+   19  cd Downloads/
+   20  ls -al
+   21  cd ..
+   22  ls
+   23  rm -r Downloads/
+   24  ls
+   25  mv Загрузки/ Downloads
+   26  ls
+   27  clear
+   28  ls
+   29  touch file_sys_management.sh
+   30  ls
+   31  vim file_sys_management.sh 
+   32  ls
+   33  clear
+   34  ls
+   35  vim file_sys_management.sh 
+   36  ls
+   37  clear
+   38  vim file_sys_management.sh 
+   39  bash file_sys_management.sh 
+   40  vim file_sys_management.sh 
+   41  man echo
+   42  echo mamcklma\nmasck
+   43  echo "mamcklma\nmasck"
+   44  man echo
+   45  echo -e "mamcklma\nmasck"
+   46  vim file_sys_management.sh 
+   47  bash file_sys_management.sh 
+   48  vim file_sys_management.sh 
+   49  bash file_sys_management.sh 
+   50  clear
+   51  ls
+   52  man chowner
+   53  man chown
+   54  chown root ./file_sys_management.sh 
+   55  la -la
+   56  ls -la
+   57  sudo chown root file_sys_management.sh 
+   58  ls -la
+   59  sudo chown root:root file_sys_management.sh 
+   60  ls -la
+   61  man chmod
+   62  bash file_sys_management.sh 
+   63  ./file_sys_management.sh
+   64  sudo ./file_sys_management.sh
+   65  man chmod
+   66  chmod u+x file_sys_management.sh 
+   67  chmod ugo+x file_sys_management.sh 
+   68  sudo chmod u+x file_sys_management.sh 
+   69  ls -la
+   70  ./file_sys_management.sh
+   71  sudo ./file_sys_management.sh
+   72  vim file_sys_management.sh 
+   73  chmod o+w file_sys_management.sh
+   74  ls -ls
+   75  ls -la
+   76  vim file_sys_management.sh
+   77  vim file_sys_management.sh~
+   78  rm file_sys_management.sh
+   79  mv file_sys_management.sh~ file_sys_management.sh
+   80  ls -la
+   81  chown root file_sys_management.sh 
+   82  sudo chown root file_sys_management.sh 
+   83  ls -la
+   84  chmod o+w file_sys_management.sh 
+   85  sudo chmod o+w file_sys_management.sh 
+   86  ls
+   87  ls -la
+   88  ./file_sys_management.sh
+   89  sudo ./file_sys_management.sh
+   90  vim file_sys_management.sh 
+   91  ls -la
+   92  chown root file_sys_management.sh~
+   93  sudo chown root file_sys_management.sh~
+   94  ls -la
+   95  vim file_sys_management.sh~
+   96  vim file_sys_management.sh
+   97  sudo chown root file_sys_management.sh
+   98  ls -la
+   99  rm file_sys_management.sh~
+  100  ls -la
+  101  vim file_sys_management.sh 
+  102  ls -la
+  103  vim file_sys_management.sh
+  104  vim file_sys_management.sh~
+  105  rm file_sys_management.sh
+  106  mv file_sys_management.sh~ file_sys_management.sh
+  107  ls -ls
+  108  ls -la
+  109  vim file_sys_management.sh 
+  110  vim file_sys_management.sh
+  111  ./file_sys_management.sh
+  112  vim file_sys_management.sh
+  113  ./file_sys_management.sh
+  114  vim file_sys_management.sh
+  115  ./file_sys_management.sh
+  116  vim file_sys_management.sh
+  117  touch test.sh
+  118  ls
+  119  vim test 
+  120  vim file_sys_management.sh
+  121  ./file_sys_management.sh
+  122  vim test 
+  123  vim file_sys_management.sh
+  124  vim test 
+  125  ls
+  126  vim test
+  127  vim test.sh
+  128  rm test.sh
+  129  bash test
+  130  vim test
+  131  bash test
+  132  vim file_sys_management.sh
+  133  ./file_sys_management.sh
+  134  vim test
+  135  bash test
+  136  vim test
+  137  bash test
+  138  vim file_sys_management.sh
+  139  ./file_sys_management.sh
+  140  vim file_sys_management.sh
+  141  ./file_sys_management.sh
+  142  vim file_sys_management.sh
+  143  ./file_sys_management.sh
+  144  bash file_sys_management.sh 
+  145  vim file_sys_management.sh
+  146  ./file_sys_management.sh
+  147  vim file_sys_management.sh
+  148  vim test 
+  149  vim file_sys_management.sh
+  150  ./file_sys_management.sh
+  151  vim file_sys_management.sh
+  152  ./file_sys_management.sh
+  153  vim file_sys_management.sh
+  154  ./file_sys_management.sh
+  155  vim file_sys_management.sh
+  156  ./file_sys_management.sh
+  157  vim file_sys_management.sh
+  158  ./file_sys_management.sh
+  159  vim file_sys_management.sh
+  160  ./file_sys_management.sh
+  161  vim file_sys_management.sh
+  162  ./file_sys_management.sh
+  163  vim file_sys_management.sh
+  164  ./file_sys_management.sh
+  165  vim file_sys_management.sh
+  166  man readarray
+  167  readarray
+  168  ls
+  169  vim file_sys_management.sh
+  170  ./file_sys_management.sh
+  171  vim file_sys_management.sh
+  172  ./file_sys_management.sh
+  173  vim file_sys_management.sh
+  174  ./file_sys_management.sh
+  175  vim file_sys_management.sh
+  176  ./file_sys_management.sh
+  177  vim file_sys_management.sh
+  178  ./file_sys_management.sh
+  179  vim file_sys_management.sh
+  180  ./file_sys_management.sh
+  181  vim file_sys_management.sh
+  182  ./file_sys_management.sh
+  183  vim file_sys_management.sh
+  184  mv file_sys_management.sh Desktop/
+  185  cd Desktop/
+  186  ls
+  187  cd Downloads/
+  188  ls
+  189  ls -la
+  190  cd 'Telegram Desktop'/
+  191  ls
+  192  ls -la
+  193  cd
+  194  ls
+  195  cd Desktop/
+  196  ls
+  197  cd 
+  198  mv Desktop/file_sys_management.sh ./
+  199  ls
+  200  vim file_sys_management.sh 
+  201  ./file_sys_management.sh
+  202  vim file_sys_management.sh 
+  203  ./file_sys_management.sh
+  204  vim file_sys_management.sh 
+  205  ./file_sys_management.sh
+  206  vim file_sys_management.sh 
+  207  ./file_sys_management.sh
+  208  vim file_sys_management.sh 
+  209  ./file_sys_management.sh
+  210  vim file_sys_management.sh 
+  211  ./file_sys_management.sh
+  212  clear
+  213  ls
+  214  vim file_sys_management.sh 
+  215  ls
+  216  clear
+  217  man fdisk
+  218  man blkid
+  219  man lsblk
+  220  ls
+  221  ls -al
+  222  clear
+  223  vim file_sys_management.sh 
+  224  man df
+  225  df -Th -x tmpfs -x devtmpfs
+  226  df -Th
+  227  df -Th -x tmpfs -x devtmpfs
+  228  df -Th -x tmpfs -x devtmpfs -x proc
+  229  df -Th -x tmpfs -x devtmpfs -x proc -x sys
+  230  df -Th -x tmpfs -x devtmpfs -x procfs -x sysfs
+  231  man df
+  232  vim file_sys_management.sh 
+  233  ./file_sys_management.sh 
+  234  vim file_sys_management.sh 
+  235  ./file_sys_management.sh 
+  236  vim file_sys_management.sh 
+  237  ./file_sys_management.sh 
+  238  vim file_sys_management.sh 
+  239  ./file_sys_management.sh 
+  240  vim file_sys_management.sh 
+  241  ./file_sys_management.sh 
+  242  vim file_sys_management.sh 
+  243  ./file_sys_management.sh nvfjvsf
+  244  vim file_sys_management.sh 
+  245  ./file_sys_management.sh nvfjvsf --help
+  246  vim file_sys_management.sh 
+  247  ./file_sys_management.sh --help
+  248  vim file_sys_management.sh 
+  249  ./file_sys_management.sh --help
+  250  vim file_sys_management.sh 
+  251  ./file_sys_management.sh --help
+  252  vim file_sys_management.sh 
+  253  ./file_sys_management.sh --help
+  254  vim file_sys_management.sh 
+  255  ./file_sys_management.sh --help
+  256  vim file_sys_management.sh 
+  257  ./file_sys_management.sh --help
+  258  vim file_sys_management.sh 
+  259  ./file_sys_management.sh --help
+  260  vim file_sys_management.sh 
+  261  ./file_sys_management.sh --help
+  262  vim file_sys_management.sh 
+  263  ./file_sys_management.sh --help
+  264  ./file_sys_management.sh nvjfv
+  265  ./file_sys_management.sh nvjfv wefwfomk
+  266  ./file_sys_management.sh --help vnjenvkjer
+  267  vim file_sys_management.sh 
+  268  ./file_sys_management.sh --help vnjenvkjer
+  269  ./file_sys_management.sh nvjfv wefwfom
+  270  vim file_sys_management.sh 
+  271  ./file_sys_management.sh nvjfv wefwfom
+  272  vim file_sys_management.sh 
+  273  ./file_sys_management.sh
+  274  vim file_sys_management.sh 
+  275  ./file_sys_management.sh
+  276  vim file_sys_management.sh 
+  277  ./file_sys_management.sh
+  278  ./file_sys_management.sh --help
+  279  vim file_sys_management.sh 
+  280  ./file_sys_management.sh --help
+  281  ./file_sys_management.sh
+  282  vim file_sys_management.sh 
+  283  ./file_sys_management.sh
+  284  vim file_sys_management.sh 
+  285  ./file_sys_management.sh
+  286  vim file_sys_management.sh 
+  287  ./file_sys_management.sh
+  288  vim file_sys_management.sh 
+  289  ./file_sys_management.sh
+  290  vim file_sys_management.sh 
+  291  ./file_sys_management.sh
+  292  vim file_sys_management.sh 
+  293  ./file_sys_management.sh
+  294  vim file_sys_management.sh 
+  295  ./file_sys_management.sh
+  296  vim file_sys_management.sh 
+  297  ./file_sys_management.sh
+  298  vim file_sys_management.sh 
+  299  ./file_sys_management.sh
+  300  vim file_sys_management.sh 
+  301  ./file_sys_management.sh
+  302  vim file_sys_management.sh 
+  303  ./file_sys_management.sh --help vnefj
+  304  vim file_sys_management.sh 
+  305  ./file_sys_management.sh --help vnefj
+  306  vim file_sys_management.sh 
+  307  ./file_sys_management.sh --help vnefj
+  308  vim file_sys_management.sh 
+  309  ./file_sys_management.sh --help vnefj
+  310  vim file_sys_management.sh 
+  311  ./file_sys_management.sh --help vnefj
+  312  vim file_sys_management.sh 
+  313  ./file_sys_management.sh --help vnefj
+  314  ./file_sys_management.sh --help 
+  315  ./file_sys_management.sh
+  316  ./file_sys_management.sh jsfncdsncj
+  317  ./file_sys_management.sh jsfncdsncj ncdsncjds
+  318  ./file_sys_management.sh --help vnefj
+  319  vim file_sys_management.sh 
+  320  ./file_sys_management.sh --help vnefj
+  321  ./file_sys_management.sh nvfjev
+  322  ./file_sys_management.sh nvfjev cdnscnsdj
+  323  ./file_sys_management.sh nvfjev cdnscnsdj cdnscnds
+  324  vim file_sys_management.sh 
+  325  ./file_sys_management.sh nvfjev cdnscnsdj cdnscnds
+  326  ./file_sys_management.sh nvfjev cdnscnsdj 
+  327  ./file_sys_management.sh nvfjev
+  328  vim file_sys_management.sh 
+  329  ./file_sys_management.sh nvfjev
+  330  vim file_sys_management.sh 
+  331  ./file_sys_management.sh nvfjev
+  332  ./file_sys_management.sh nvfjev vndjsnvs
+  333  ./file_sys_management.sh nvfjev vndjsnvs adsmkda
+  334  ./file_sys_management.sh --help
+  335  ./file_sys_management.sh --help cmdsckmlds
+  336  ./file_sys_management.sh --help cmdsckmlds adsad
+  337  ./file_sys_management.sh vsdfvs
+  338  ./file_sys_management.shasd
+  339  ./file_sys_management.sh
+  340  vim file_sys_management.sh 
+  341  man select
+  342  vim file_sys_management.sh 
+  343  clear
+  344  vim file_sys_management.sh 
+  345  ./file_sys_management.sh 
+  346  vim file_sys_management.sh 
+  347  ./file_sys_management.sh 
+  348  vim file_sys_management.sh 
+  349  ./file_sys_management.sh 
+  350  vim file_sys_management.sh 
+  351  ./file_sys_management.sh 
+  352  vim file_sys_management.sh 
+  353  man echo
+  354  vim file_sys_management.sh 
+  355  ./file_sys_management.sh 
+  356  vim file_sys_management.sh 
+  357  ./file_sys_management.sh 
+  358  vim file_sys_management.sh 
+  359  ./file_sys_management.sh 
+  360  vim file_sys_management.sh 
+  361  man losetup
+  362  vim file_sys_management.sh 
+  363  man mount
+  364  vim file_sys_management.sh 
+  365  ./file_sys_management.sh 
+  366  vim file_sys_management.sh 
+  367  ./file_sys_management.sh 
+  368  vim file_sys_management.sh 
+  369  man read
+  370  vim file_sys_management.sh 
+  371  ls
+  372  vim file_sys_management.sh 
+  373  man losetup
+  374  file -l
+  375  clear
+  376  man awk
+  377  man wc
+  378  vim file_sys_management.sh 
+  379  ls
+  380  ls -l
+  381  rm test.img 
+  382  ls -l
+  383  clear
+  384  vim test 
+  385  rm test 
+  386  dd if=/dev/zero of=./test.img bs=1M count=10
+  387  ls
+  388  ls -l
+  389  man losetup
+  390  losetup --find --show test.img 
+  391  man losetup
+  392  losetup -a
+  393  losetup --list
+  394  man losetup
+  395  losetup --find
+  396  sudo losetup --find
+  397  clear
+  398  ls -l
+  399  man chown
+  400  chown root file_sys_management.sh 
+  401  ls -l
+  402  man sudo
+  403  man su
+  404  su root
+  405  clear
+  406  man sudo
+  407  sudo chown root file_sys_management.sh 
+  408  ls -l
+  409  vim file_sys_management.sh 
+  410  sudo losetup --show --find test.img 
+  411  losetup --list
+  412  man mkfs
+  413  mkfs -t ext4 /dev/loop0 
+  414  sudo mkfs -t ext4 /dev/loop0 
+  415  man blkid
+  416  mount /dev/loop0 /mnt
+  417  clear
+  418  sudo mount /dev/loop0 /mnt
+  419  man mount
+  420  mount
+  421  mount | grep /mnt
+  422  umount /dev/loop0
+  423  sudo umount /dev/loop0
+  424  mount | grep /mnt
+  425  clear
+  426  vim file_sys_management.sh 
+  427  sudo losetup --find
+  428  clear
+  429  vim file_sys_management.sh 
+  430  ls -l
+  431  rm test.img 
+  432  ls
+  433  vim file_sys_management.sh 
+  434  ls
+  435  ./file_sys_management.sh
+  436  sudo ./file_sys_management.sh
+  437  touch test.img
+  438  ls
+  439  sudo ./file_sys_management.sh
+  440  mount 
+  441  mount | grep /mnt
+  442  vim file_sys_management.sh 
+  443  cat /etc/fstab 
+  444  clear
+  445  man fstab
+  446  ls -l
+  447  sudo losetup --find
+  448  man losetup
+  449  sudo losetup --show
+  450  sudo losetup --show test.img 
+  451  ls
+  452  sudo losetup --find
+  453  ls /dev/ -l
+  454  sudo losetup --list
+  455  sudo losetup --detach /dev/loop0
+  456  sudo losetup --detach /dev/loop1
+  457  sudo losetup --list
+  458  sudo ./file_sys_management.sh
+  459  clear
+  460  sudo losetup --list
+  461  ls -l 
+  462  vim file_sys_management.sh 
+  463  sudo vim file_sys_management.sh 
+  464  vim test_script
+  465  vim file_sys_management.sh 
+  466  vim test_script
+  467  date
+  468  vim test_script
+  469  bash test_script 
+  470  vim test_script
+  471  bash test_script 
+  472  rm test_script 
+  473  ls
+  474  sudo vim file_sys_management.sh 
+  475  clear
+  476  sudo losetup --list
+  477  ls -l | grep loop
+  478  ls -l /dev/ | grep loop
+  479  clear
+  480  sudo vim file_sys_management.sh 
+  481  sudo losetup --list
+  482  sudo ./file_sys_management.sh
+  483  sudo vim file_sys_management.sh 
+  484  sudo losetup --detach /dev/loop0
+  485  sudo losetup --list
+  486  ls / -l
+  487  sudo ./file_sys_management.sh
+  488  vim file_sys_management.sh 
+  489  ls
+  490  sudovim file_sys_management.sh 
+  491  sudo vim file_sys_management.sh 
+  492  mount /dev/loop0 /mnt
+  493  sudo mount /dev/loop0 /mnt
+  494  cat /etc/fstab
+  495  df
+  496  umount /dev/loop0
+  497  sudo umount /dev/loop0
+  498  sudo vim file_sys_management.sh 
+  499  sudo ./file_sys_management.sh
+  500  sudo losetup --list
+  501  sudo losetup --detach /dev/loop0
+  502  sudo losetup --detach /dev/loop1
+  503  sudo vim file_sys_management.sh 
+  504  man read
+  505  sudo vim file_sys_management.sh 
+  506  sudo ./file_sys_management.sh
+  507  sudo vim file_sys_management.sh 
+  508  sudo losetup --list
+  509  clear
+  510  ls
+  511  clear
+  512  ls
+  513  ls -l Desktop/
+  514  cd Desktop/
+  515  ls
+  516  cd ../Downloads/
+  517  ls
+  518  clear
+  519  ls
+  520  sudo vim file_sys_management.sh 
+  521  sudo ./file_sys_management.sh
+  522  sudo vim file_sys_management.sh 
+  523  sudo ./file_sys_management.sh
+  524  sudo vim file_sys_management.sh 
+  525  sudo ./file_sys_management.sh
+  526  sudo vim file_sys_management.sh 
+  527  man head
+  528  man tail
+  529  sudo vim file_sys_management.sh 
+  530  df -Th -x procfs -x tmpfs -x sysfs
+  531  sudo vim file_sys_management.sh 
+  532  df -Th -x procfs -x tmpfs -x sysfs -x devtmpfs
+  533  man tail
+  534  df -Th -x procfs -x tmpfs -x sysfs -x devtmpfs | tail -n +5
+  535  df -Th -x procfs -x tmpfs -x sysfs -x devtmpfs | tail -n +6
+  536  sudo ./file_sys_management.sh
+  537  df -Th -x procfs -x tmpfs -x sysfs -x devtmpfs | tail -n +6
+  538  sudo vim file_sys_management.sh 
+  539  sudo ./file_sys_management.sh
+  540  sudo vim file_sys_management.sh 
+  541  sudo ./file_sys_management.sh
+  542  sudo vim file_sys_management.sh 
+  543  sudo ./file_sys_management.sh
+  544  sudo vim file_sys_management.sh 
+  545  losetup --list
+  546  sudo ./file_sys_management.sh
+  547  losetup --list
+  548  sudo ./file_sys_management.sh
+  549  losetup --list
+  550  sudo vim file_sys_management.sh 
+  551  sudo ./file_sys_management.sh
+  552  sudo vim file_sys_management.sh 
+  553  sudo ./file_sys_management.sh
+  554  sudo vim file_sys_management.sh 
+  555  losetup --list
+  556  sudo ./file_sys_management.sh
+  557  losetup --list
+  558  clear
+  559  sudo vim file_sys_management.sh 
+  560  ls -la
+  561  man find
+  562  find test
+  563  find / test
+  564  find ./ test
+  565  man find
+  566  ls -la
+  567  vim .viminfo 
+  568  find / -type f -name .vimrc
+  569  find ./ -type f -name .vimrc
+  570  clear
+  571  vim .viminfo 
+  572  ls -la
+  573  vim .bashrc 
+  574  vim .viminfo 
+  575  sudo vim file_sys_management.sh 
+  576  sudo vim file_sys_management.sh 
+  577  sudo ./file_sys_management.sh
+  578  clear
+  579  sudo vim file_sys_management.sh 
+  580  man tune2fs
+  581  man blkid
+  582  man debugfs
+  583  df 
+  584  sudo ./file_sys_management.sh
+  585  df
+  586  debugfs -w /dev/loop0
+  587  sudo debugfs -w /dev/loop0
+  588  man debugfs
+  589  mount | grep /mnt
+  590  man mount
+  591  sudo mount -o remount,r /mnt
+  592  mount | grep /mnt
+  593  sudo mount -o remount,rw /mnt
+  594  mount | grep /mnt
+  595  sudo mount -o remount,r /mnt
+  596  sudo vim file_sys_management.sh 
+  597  sudo ./file_sys_management.sh
+  598  sudo vim file_sys_management.sh 
+  599  man mkfs
+  600  sudo mount -o remount,ro /mnt
+  601  mount | grep /mnt
+  602  sudo vim file_sys_management.sh 
+  603  mount | grep /mnt
+  604  df --output=target /dev/loop0 | tail -n +2
+  605  sudo vim file_sys_management.sh 
+  606  mount | grep /mnt
+  607  sudo ./file_sys_management.sh
+  608  sudo vim file_sys_management.sh 
+  609  sudo ./file_sys_management.sh
+  610  sudo vim file_sys_management.sh 
+  611  sudo ./file_sys_management.sh
+  612  sudo vim file_sys_management.sh 
+  613  sudo ./file_sys_management.sh
+  614  sudo vim file_sys_management.sh 
+  615  sudo ./file_sys_management.sh
+  616  sudo vim file_sys_management.sh 
+  617  sudo ./file_sys_management.sh
+  618  sudo vim file_sys_management.sh 
+  619  sudo ./file_sys_management.sh
+  620  sudo vim file_sys_management.sh 
+  621  sudo ./file_sys_management.sh
+  622  mount | grep /mnt
+  623  sudo ./file_sys_management.sh
+  624  mount | grep /mnt
+  625  sudo vim file_sys_management.sh 
+  626  sudo ./file_sys_management.sh
+  627  mount | grep /mnt
+  628  sudo vim file_sys_management.sh 
+  629  sudo ./file_sys_management.sh
+  630  mount | grep /mnt
+  631  sudo vim file_sys_management.sh 
+  632  mount 
+  633  clear
+  634  tune2fs -l /dev/loop0
+  635  sudo tune2fs -l /dev/loop0
+  636  clear
+  637  mount | grep /mnt
+  638  sudo vim file_sys_management.sh 
+  639  sudo ./file_sys_management.sh
+  640  sudo vim file_sys_management.sh 
+  641  sudo ./file_sys_management.sh
+  642  sudo vim file_sys_management.sh 
+  643  sudo ./file_sys_management.sh
+  644  sudo vim file_sys_management.sh 
+  645  sudo ./file_sys_management.sh
+  646  sudo vim file_sys_management.sh 
+  647  sudo ./file_sys_management.sh
+  648  sudo vim file_sys_management.sh 
+  649  sudo ./file_sys_management.sh
+  650  sudo vim file_sys_management.sh 
+  651  df
+  652  mount | grep \mnt
+  653  man df
+  654  man mount
+  655  mount
+  656  man mount
+  657  man df
+  658  man tune2fs
+  659  man df
+  660  mount | grep ext*
+  661  mount | grep -e ext*
+  662  mount | grep -e "ext*"
+  663  mount | grep -e "ext."
+  664  sudo vim file_sys_management.sh 
+  665  sudo ./file_sys_management.sh
+  666  sudo vim file_sys_management.sh 
+  667  sudo ./file_sys_management.sh
+  668  mount | grep /mnt | cut -d ' ' -f 1
+  669  sudo vim file_sys_management.sh 
+  670  sudo ./file_sys_management.sh
+  671  sudo vim file_sys_management.sh 
+  672  man cut
+  673  sudo vim file_sys_management.sh 
+  674  sudo ./file_sys_management.sh
+  675  sudo vim file_sys_management.sh 
+  676  sudo ./file_sys_management.sh
+  677  sudo vim file_sys_management.sh 
+  678  sudo ./file_sys_management.sh
+  679  ls
+  680  man systemd
+  681  systemd-cgls
+  682  man systemctl
+  683  systemctl list-units-files 'audit'
+  684  systemctl list-unit-files 'audit'
+  685  systemctl list-unit-files 'mysql*'
+  686  systemctl list-unit-files 'audit*'
+  687  ls -l
+  688  vim file_sys_management.sh 
+  689  vim demons.sh 
+  690  ./demons.sh 
+  691  vim file_sys_management.sh 
+  692  vim demons.sh 
+  693  systemctl list-unit-files 'audit'
+  694  man systemctl
+  695  systemctl list-unit-files 'audit'
+  696  systemctl list-unit-files '*audit*'
+  697  vim demons.sh 
+  698  ./demons.sh 
+  699  systemctl list-unit-files
+  700  systemctl list-unit-files | grep 'au'
+  701  vim demons.sh 
+  702  ./demons.sh 
+  703  vim demons.sh 
+  704  systemctl list-unit-files | grep 'au'
+  705  vim demons.sh 
+  706  ./demons.sh 
+  707  vim demons.sh 
+  708  ./demons.sh 
+  709  vim demons.sh 
+  710  ./demons.sh 
+  711  man systemctl
+  712  man ps
+  713  ls
+  714  vim demons.sh 
+  715  man systemd
+  716  systemd-cgls
+  717  ps xawf -eo pid,user,cgroup,args
+  718  ps xawf -eo pid,user,cgroup
+  719  ps xawf -eo pid,user,cgroup | grep ".service$"
+  720  vim demons.sh 
+  721  ./demons.sh 
+  722  vim demons.sh 
+  723  man systemctl
+  724  vim demons.sh 
+  725  vim file_sys_management.sh 
+  726  vim demons.sh 
+  727  systemctl list-units --type=service --all
+  728  vim demons.sh 
+  729  vim file_sys_management.sh 
+  730  vim demons.sh 
+  731  ./demons.sh 
+  732  vim demons.sh 
+  733  systemctl list-units --type=service --all
+  734  vim demons.sh 
+  735  systemctl list-units --type=service --all
+  736  systemctl list-unit-files --type=service
+  737  systemctl list-units --type=service --all
+  738  man less
+  739  systemctl list-units --type=service --all | grep ".service$"
+  740  man grep
+  741  systemctl list-units --type=service --all | grep -o ".service$"
+  742  man grep
+  743  ls
+  744  vim d
+  745  ls
+  746  ls -la
+  747  cd xaf
+  748  vim xaf 
+  749  clear
+  750  vim demons.sh 
+  751  man read
+  752  vim demons.sh 
+  753  ./demons.sh 
+  754  vim demons.sh vim 
+  755  vim demons.sh 
+  756  ./demons.sh 
+  757  man chmod
+  758  ls -l
+  759  man chowner
+  760  man chown
+  761  chown root demons.sh 
+  762  sudo chown root demons.sh 
+  763  sudo ./demons.sh
+  764  man journalctl
+  765  journalctl 
+  766  clear
+  767  ls
+  768  touch service_scanner.sh
+  769  ls -l
+  770  chmod u+x service_scanner.sh 
+  771  ls -l
+  772  clear
+  773  vim service_scanner.sh 
+  774  ./service_scanner.sh 
+  775  ldd /bin/login | grep pam
+  776  lss
+  777  ls
+  778  touch pam.sh
+  779  ls -ls
+  780  ls -la
+  781  man chmod
+  782  chmod +x pam.sh 
+  783  ls -la
+  784  cp file_sys_management.sh pam.sh 
+  785  vim pam.sh 
+  786  vim demons.sh 
+  787  vim pam.sh 
+  788  vim demons.sh 
+  789  vim file_sys_management.sh 
+  790  vim pam.sh 
+  791  vim file_sys_management.sh 
+  792  vim pam.sh 
+  793  man pam_pwdquality
+  794  man pam_pwquality
+  795  cat /etc/pam.d/sudo
+  796  cd /etc/
+  797  ls
+  798  cd pam.d/
+  799  ls
+  800  ls -l
+  801  cat passwd
+  802  cat password-auth 
+  803  cd ..
+  804  ls -l /lib64/libpam.so.0
+  805  ls -l /lib64/libpam*
+  806  ls -l /lib64/security/
+  807  man login.defs
+  808  cd
+  809  vim pam.sh 
+  810  cat /etc/login.defs
+  811  cat /etc/pam.d/system-auth 
+  812  ls -l /lib64/security/
+  813  vim /etc/login.defs
+  814  cd /etc/pam.d/
+  815  ls -l
+  816  cat gdm_password
+  817  cat gdm-password
+  818  cat /etc/security/pwquality.conf
+  819  clear
+  820  cd
+  821  shutdown
+  822  man ldd
+  823  ldd /bin/login | grep pam 
+  824  ls -l /lib64/libpam*
+  825  ls -l /lib64/security
+  826  vim /etc/pam.d/system-auth 
+  827  vim /etc/pam.d/su
+  828  sudo vim /etc/pam.d/su
+  829  man su
+  830  su
+  831  sudo useradd -p 1234 user2
+  832  su user2
+  833  sudo grep user2 /etc/shadow
+  834  sudo grep pd9 /etc/shadow
+  835  sudo grep user1 /etc/shadow
+  836  su user2
+  837  sudo passwd -d user2
+  838  su user2
+  839  sudo vim /etc/pam.d/su
+  840  su
+  841  sudo vim /etc/pam.d/su
+  842  su
+  843  sudo vim /etc/pam.d/su
+  844  useradd user1
+  845  sudo useradd user1
+  846  sudo useradd -G wheel
+  847  sudo useradd -G wheel user1
+  848  id user1
+  849  usermod -aG wheel user1
+  850  sudo usermod -aG wheel user1
+  851  id user1
+  852  su user1
+  853  useradd -D
+  854  su user1
+  855  sudo grep test /etc/shadow
+  856  sudo grep user1 /etc/shadow
+  857  sudo passwd -d user1
+  858  su user1
+  859  su user1
+  860  wget https://github.com/linux-pam/linux-pam/blob/master/examples/check_user.c
+  861  ls
+  862  gcc check_user.c -o check_user -lpam -lpam_misc
+  863  sudo apt install libpam0g-dev
+  864  sudo yum install libpam0g-dev
+  865  yum search pam
+  866  ls
+  867  ll
+  868  history > history.txt
